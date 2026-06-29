@@ -27,13 +27,14 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
+      "enabled": false,
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "I WAS ALWAYS HERE",
+        "I KNOW WHERE YOU LIVE",
+        "01100110 01110010 01100101 01101110 01100011 01101000 00100000 01100111 01110101 01111001 01100001 01101110 01100001",
+        "not a horror mod btw"
       ]
     },
     "chat-log": true,
@@ -77,7 +78,7 @@
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
-      "disconnect": true,
+      "disconnect": false,
       "chat": false
     }
   },
